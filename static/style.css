@@ -44,9 +44,18 @@ button {
     cursor: pointer;
 }
 
-.result {
+.result.spam {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.result.not-spam {
     margin-top: 20px;
     font-size: 18px;
     text-align: center;
     color: green;
+    font-weight: bold;
 }
